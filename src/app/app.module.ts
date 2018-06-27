@@ -9,6 +9,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ProfileComponent } from './profile/profile.component';
+import { ErrorComponent } from './error/error.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { ProfileComponent } from './profile/profile.component';
     HomeComponent,
     AboutComponent,
     ProfileComponent,
+    ErrorComponent,
   ],
   imports: [
     BrowserModule,
